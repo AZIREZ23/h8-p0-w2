@@ -1,0 +1,44 @@
+(psedocode)=> "Newton Second Law"
+
+Store "masa benda" with any falue
+Store "Percepatan benda" with any falue
+store "Resultan Gaya" With any falue
+
+Calculate "masa benda" dikalikan "percepatan Benda"
+set "resultan Gaya" Value from Calculate result
+
+display "resultan Gaya"
+///////////////////////////////////////////////////
+
+(psedocode)=> "Tahun Kabisat"
+
+Store "Angka Tahun" with any falue
+
+if "Angka Tahun" habis dibagi 4 & tidak habis dibagi 100
+DO "Tahun Kabisat"
+
+Else IF "Angka Tahun" habis dibagi 4 & habis di bagi 100 & habis dibagi 400
+DO "Bukan Tahun Kabisat"
+///////////////////////////////////////////////////////
+
+(psedocode)=> "Laundry Day"
+Store "full Aksi" with 0
+
+While "full Aksi" < 20
+Add "full Aksi" +1
+
+Display "Pakaian Full dan Siap Nyalakan Mesin cuci"
+///////////////////////////////////////////////////////
+
+
+(psedocode)=> "Periksa Kuku"
+store "kuku panjang" with true
+store "kuku Pendek" with false
+Store "max" with 40
+
+if < 40 dan "Kuku Panjang" 
+DO "Guru akan menghukum" dan  "max" + 1
+
+Else if < 40 dan "Kuku Pendek"
+DO "Guru akan memuji" "max" + 1
+////////////////////////////////////////////////////////
