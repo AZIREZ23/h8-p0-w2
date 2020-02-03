@@ -1,4 +1,7 @@
 // 1. Let's Form a Sentence
+// Pada tugas ini kamu diminta untuk melakukan penambahan string menggunakan simbol +. Disediakan variable word. Tambahkan nilai word satu per satu dengan nilai variable lain untuk membentuk sebuah kalimat. Jangan lupa menambahkan spasi di setiap kata, dan tampilkan di console hasil penggabungannya! Kamu tidak perlu membuat variable baru!
+
+            ///// OutPut=> JavaScript is awesome and I love it!//////
 
 var word = 'JavaScript';
 var second = 'is';
@@ -10,6 +13,14 @@ var seventh = 'it!';
 console.log(word +" "+ second +" "+ third +" "+ fourth +" "+ fifth +" "+ sixth +" "+ seventh );
 
 // 2. Index Accessing - 1 by 1
+// Problem
+
+// Pada tugas ini kamu diminta untuk "memecah" sebuah kalimat dan menampilkan setiap kata didalamnya. Untuk soal nomor ini, gunakan akses satu per satu karakter dari string untuk mengambil setiap huruf dalam kata. Terasa manual? Tidak apa-apa, kita coba ini dulu untuk saat ini.
+        //// OutPut=> First Word: wow
+            // Second Word: JavaScript
+            // Third Word: is
+            // Fourth Word: so
+            // Fifth Word: cool
 
 var word = 'wow JavaScript is so cool';
 var firstWord = word[0] + word[1] + word[2];
@@ -25,6 +36,15 @@ console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
 // 3. Breaking Sentence (Again) using Substring
+// Problem
+
+// Mirip seperti soal nomor 2, namun kali ini gunakan substring untuk mengambil potongan dari tiap kata!
+
+            ////OutPut=> First Word: wow
+                // Second Word: JavaScript
+                // Third Word: is
+                // Fourth Word: so
+                // Fifth Word: cool
 
 var word3 = 'wow JavaScript is so cool';
 var firstWord3 = word.substring(0, 3);
@@ -40,7 +60,15 @@ console.log('Fourth Word: ' + fourthWord3);
 console.log('Fifth Word: ' + fifthWord3);
 
 // 4. Breaking Sentence (yet Again) and Count Each Length
+// Problem
+// 
+// // Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
 
+            ////OutPut => First Word: wow, with length: 3
+                    // Second Word: JavaScript, with     length: 10
+                    // Third Word: is, with length: 2
+                    // Fourth Word: so, with length: 2
+                    // Fifth Word: cool, with length: 4
 var word4 = 'wow JavaScript is so cool';
 var firstWord4 = word4.substring(0, 3);
 var secondWord4 = word4.substring(4, 14);
